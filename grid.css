@@ -1,0 +1,37 @@
+.container {
+    font-size: 50px;
+    width: 30%;
+    background: lightskyblue;
+    display: grid;
+    grid-template-columns: 50px 50px;
+    grid-template-rows: 50px 50px;
+    grid-gap: 10px 20px;
+    justify-items: center;
+}
+
+.d1 {
+    background: lime;
+}
+
+.d2 {
+    background: greenyellow;
+    justify-self: center;
+}
+
+.d3 {
+    background: lightcoral;
+    align-self: end;
+}
+
+.d4 {
+    background: mediumturquoise;
+}
+
+.d5 {
+    background: hotpink;
+}
+
+.d6 {
+    background: yellowgreen;
+    grid-area: footer;
+}
